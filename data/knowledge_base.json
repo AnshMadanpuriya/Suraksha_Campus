@@ -1,0 +1,257 @@
+[
+  {
+    "id": "NDMA-EQ-01",
+    "category": "Earthquake",
+    "title": "Classroom & Lecture Hall Drop, Cover, Hold On Protocol",
+    "source": "NDMA National School Safety Policy Guidelines (2016)",
+    "severity": "Critical",
+    "keywords": ["earthquake", "bhukamp", "tremor", "shaking", "classroom", "desk", "drop cover hold", "seismic", "hilna", "class"],
+    "content": "During active seismic shaking inside a classroom or lecture hall, immediately execute DROP, COVER, AND HOLD ON. Drop to your hands and knees before the tremor knocks you down. Take cover under a sturdy wooden desk or bench away from glass windows, overhead ceiling fans, hanging projectors, and heavy steel almirahs. Hold onto the desk leg firmly until shaking completely stops for at least 30 seconds. Do NOT run toward staircases or exits while the building is actively shaking, because falling plaster, glass shards, and stairwell crowding cause the highest number of school injuries.",
+    "real_time_steps": [
+      "Drop onto hands and knees immediately",
+      "Take cover under sturdy desk or crouch beside an interior RCC load-bearing pillar",
+      "Protect head and neck with one arm or thick textbook/school bag",
+      "Wait until shaking fully stops before beginning calm single-file evacuation"
+    ],
+    "medikit_items": ["Sterile gauze pads", "Antiseptic wipes (Povidone-iodine / Savlon)", "Adhesive bandages", "Cold pack"],
+    "improvised_sources": ["Thick hardcover textbook or backpack as head shield", "Clean cotton handkerchief or dupatta for minor dust/cut compression"]
+  },
+  {
+    "id": "NDMA-EQ-02",
+    "category": "Earthquake",
+    "title": "Post-Earthquake Evacuation, Gas/Electrical Shutoff & Assembly Roll Call",
+    "source": "NDMA School Earthquake Response SOP",
+    "severity": "High",
+    "keywords": ["earthquake", "aftershock", "evacuation", "staircase", "lift", "elevator", "electricity", "gas", "roll call", "assembly", "bhukamp ke baad"],
+    "content": "Once shaking stops, teachers and floor wardens must guide students in a calm single file via designated staircases—NEVER use elevators/lifts. Lab staff must shut off LPG/PNG gas valves and main electrical MCBs if sparks or gas odour are detected. Watch out for fallen electrical wires, cracked masonry, and broken laboratory glassware. Assemble in the open ground Assembly Zone away from buildings, boundary walls, trees, and overhead power lines. Conduct an immediate class-wise attendance headcount and report missing or injured persons to the Campus Incident Commander.",
+    "real_time_steps": [
+      "Shut off chemistry lab gas cylinders and main electrical breakers if accessible safely",
+      "Evacuate via staircases holding handrails; avoid elevators completely",
+      "Move at least 15 meters clear of buildings and boundary walls to open ground",
+      "Perform headcount and check for hidden injuries or shock"
+    ],
+    "medikit_items": ["Whistle for trapped/warden signaling", "LED torch", "Trauma shears", "Emergency thermal blanket"],
+    "improvised_sources": ["Attendance register for headcount verification", "Metal water bottle or classroom bell for signaling if whistles are unavailable"]
+  },
+  {
+    "id": "NDMA-FIRE-01",
+    "category": "Fire",
+    "title": "Campus Fire Alarm, Door Heat Check & Low-Crawl Smoke Evacuation",
+    "source": "National Building Code (NBC) India Part IV — Fire & Life Safety",
+    "severity": "Critical",
+    "keywords": ["fire", "aag", "smoke", "dhuan", "suffocation", "alarm", "exit", "corridor", "door", "elevator", "lift", "lab fire", "hostel fire"],
+    "content": "On discovering a fire or hearing the campus fire alarm, raise the manual call point alarm and dial 101 / 112 immediately. Before opening any closed classroom or hostel door, test the door handle and upper panel with the BACK of your hand. If hot, do NOT open it—seal bottom door gaps with wet cloth, towels, or blazers and signal from a window. If smoke fills the corridor, drop low and crawl 30–45 cm above the floor where air is cooler and less toxic, covering nose and mouth with a damp cotton cloth. Never use lifts. Close doors behind you (do not lock) to slow fire spread.",
+    "real_time_steps": [
+      "Trigger nearest fire alarm call point and alert floor warden",
+      "Test closed doors with back of hand before opening",
+      "Crawl low under thick smoke with damp cloth over nose and mouth",
+      "Evacuate via nearest smoke-free fire staircase to Assembly Zone"
+    ],
+    "medikit_items": ["Burnshield hydrogel dressing", "Sterile non-stick gauze", "Saline eyewash", "N95/dust masks"],
+    "improvised_sources": ["Wet cotton dupatta, handkerchief, or lab towel over nose/mouth for smoke filtration", "Wet blazer/bedsheet to seal door gaps if trapped"]
+  },
+  {
+    "id": "NDMA-FIRE-02",
+    "category": "Fire",
+    "title": "Fire Extinguisher Classification (ABC / CO2) & PASS Technique",
+    "source": "NDMA Fire Safety Training Manual for Educational Institutions",
+    "severity": "High",
+    "keywords": ["extinguisher", "pass", "electrical fire", "short circuit", "abc", "co2", "water", "stop drop roll", "kapdo me aag", "clothes on fire"],
+    "content": "Only fight a small incipient fire if you have a clear exit behind you. Use CO2 or ABC dry-powder extinguishers for electrical short circuits or computer lab fires—NEVER throw water on electrical or oil/chemical fires. Follow PASS: Pull the safety pin, Aim the nozzle at the BASE of the fire, Squeeze the lever slowly, Sweep side to side. If a student's or staff member's clothing catches fire, do NOT let them run; immediately execute STOP, DROP, AND ROLL on the floor and smother flames using a heavy cotton blanket, wool coat, or fire blanket.",
+    "real_time_steps": [
+      "Verify fire is small and exit path is unobstructed behind you",
+      "Select ABC/CO2 extinguisher for electrical/lab fires (never water)",
+      "Apply PASS: Pull pin, Aim at base, Squeeze lever, Sweep side to side",
+      "For clothes on fire: Stop, Drop, Roll and wrap in heavy cotton/fire blanket"
+    ],
+    "medikit_items": ["Fire blanket", "Sterile burn sheet", "Cool clean water bottle", "Sterile cling film / non-adherent dressing"],
+    "improvised_sources": ["Dry sand bucket (for oil/electrical spark containment)", "Thick woolen blanket or cotton lab coat to smother flames on clothing"]
+  },
+  {
+    "id": "NDMA-FLOOD-01",
+    "category": "Flood",
+    "title": "Monsoon Flood, Waterlogging & Campus Electrocution Prevention",
+    "source": "NDMA Guidelines on Management of Urban Flooding & Monsoon School Safety",
+    "severity": "Critical",
+    "keywords": ["flood", "baadh", "water", "pani", "rain", "barish", "monsoon", "electricity", "current", "shock", "mcbs", "terrace", "ground floor"],
+    "content": "During sudden campus flooding or heavy monsoon waterlogging, immediately switch off main electrical distribution boards (MCBs) and generator supply BEFORE water enters ground-floor rooms—never touch wet switches or stand in water while operating electrical panels. Evacuate ground-floor classrooms, libraries, and hostels to upper stories (1st/2nd floor or dry terrace). Never walk, wade, or drive through moving floodwater deeper than 15 cm (ankle-deep moving water can knock a student down, and open manholes or live fallen wires may be submerged).",
+    "real_time_steps": [
+      "Isolate ground-floor electrical mains using dry insulated footwear/gloves before flooding rises",
+      "Move students, first-aid kits, drinking water, and attendance registers to upper floors",
+      "Stay away from flooded basements, open drains, and metallic poles/fences",
+      "Do not attempt to cross flowing water outside campus gates; await SDRF/NDRF guidance"
+    ],
+    "medikit_items": ["ORS (Oral Rehydration Salts) packets", "Water purification chlorine tablets", "Antiseptic cream", "Torch with spare batteries", "Whistle"],
+    "improvised_sources": ["Empty sealed plastic bottles tied together as makeshift buoyancy aid", "Dry classroom benches/tables to elevate medical supplies and dry clothes"]
+  },
+  {
+    "id": "NDMA-FLOOD-02",
+    "category": "Flood",
+    "title": "Flood-Borne Contamination, Hypothermia & Snakebite Protocol",
+    "source": "Indian Red Cross & NDMA Monsoon Health Advisory",
+    "severity": "High",
+    "keywords": ["flood", "snakebite", "saanp", "dirty water", "hydration", "ors", "fever", "cold", "hypothermia", "baadh me saanp", "contaminated"],
+    "content": "Floodwaters carry sewage, leptospirosis bacteria, and displaced snakes. Keep cuts covered with waterproof dressings. Never drink tap or well water after flooding without boiling or chlorine tablets; administer ORS immediately for dehydration or diarrhea. If someone suffers a snakebite on campus during floods: keep the victim completely calm and still (movement spreads venom), immobilize the bitten limb below heart level with a loose splint, remove tight rings/watches, and rush to the nearest hospital for anti-venom. NEVER cut the wound, suck out venom, or tie a tight tourniquet.",
+    "real_time_steps": [
+      "Wash any floodwater-exposed skin with clean soap and boiled/clean water",
+      "For snakebite: immobilize limb below heart level, keep victim calm, call 108",
+      "Do NOT incise, suck venom, or apply tight tourniquet",
+      "Remove wet clothes and wrap shivering victims in dry thermal blankets"
+    ],
+    "medikit_items": ["ORS sachets", "Waterproof adhesive dressings", "Crepe bandage for gentle pressure-immobilization", "Thermal emergency blanket"],
+    "improvised_sources": ["Boiled cooled water with 1 pinch salt + 6 tsp sugar per liter as homemade ORS", "Cardboard or wooden scale for limb immobilization"]
+  },
+  {
+    "id": "FIRSTAID-MINOR-01",
+    "category": "FirstAid_Minor",
+    "title": "Minor Cuts, Scrapes, Abrasions & Bruise Care (Kam Chot)",
+    "source": "Indian Red Cross & St. John Ambulance First Aid Manual",
+    "severity": "Moderate",
+    "keywords": ["minor injury", "kam chot", "chot", "cut", "scrape", "scratch", "bleeding", "khoon", "wound", "zakhm", "antiseptic", "patti", "bruise", "bandaid"],
+    "content": "For minor cuts, scrapes, or mild bleeding (kam chot): first put on disposable gloves or wash hands thoroughly with soap and water. Rinse the wound gently under clean running drinking water to remove dirt, glass dust, or gravel—do NOT scrub aggressively or apply toothpaste, turmeric/haldi, mud, or ink. Apply gentle direct pressure with a sterile gauze pad for 3–5 minutes until oozing stops. Dab surrounding skin with mild antiseptic (Savlon / diluted Povidone-Iodine), then cover with a sterile adhesive bandage or gauze taped securely.",
+    "real_time_steps": [
+      "Wash hands or wear disposable nitrile gloves from medikit",
+      "Irrigate wound gently with clean running water or normal saline",
+      "Press gently with sterile gauze for 3–5 minutes to stop minor bleeding",
+      "Apply antiseptic solution around edges and seal with sterile bandage"
+    ],
+    "medikit_items": ["Disposable nitrile gloves", "Normal saline / clean water", "Sterile gauze pads (7.5x7.5cm)", "Antiseptic liquid (Savlon / Betadine)", "Adhesive strips & medical tape"],
+    "improvised_sources": ["Freshly laundered clean cotton handkerchief or unused paper napkin if sterile gauze is unavailable", "Bottled drinking water for wound irrigation when taps are shut off"]
+  },
+  {
+    "id": "FIRSTAID-MINOR-02",
+    "category": "FirstAid_Minor",
+    "title": "Minor Burns (1st Degree / Mild Scalds) & Heat Exhaustion",
+    "source": "Indian Red Cross Burn & Heat First Aid Guidelines",
+    "severity": "Moderate",
+    "keywords": ["minor burn", "jal gaya", "halka jalna", "burn", "scald", "blister", "chhala", "faint", "chakkar", "heatstroke", "garmi", "dehydration"],
+    "content": "For minor superficial burns (redness, mild pain, small blister): immediately hold the burned area under cool (not ice-cold) running tap water for 15–20 minutes to stop tissue heat damage. Remove rings, watches, or tight bangles gently before swelling starts. Cover loosely with sterile non-stick gauze or clean plastic cling wrap. NEVER apply ice, butter, ghee, toothpaste, ink, or raw potato—these trap heat and cause infection, and NEVER pop blisters. For heat exhaustion or mild fainting in assembly grounds: move person to shade, elevate legs 30 cm, loosen collar/tie, wipe with cool wet cloth, and sip ORS.",
+    "real_time_steps": [
+      "Cool minor burn under cool running water for 15–20 continuous minutes",
+      "Remove watches/rings near burn gently before swelling develops",
+      "Cover loosely with non-stick sterile dressing (never burst blisters)",
+      "Never apply ice, toothpaste, butter, or oil"
+    ],
+    "medikit_items": ["Burn gel / sterile non-stick paraffin gauze", "Clean cling film or loose gauze roll", "ORS packets", "Instant cold pack (for heatstroke, NOT direct on burns)"],
+    "improvised_sources": ["Clean food-grade plastic wrap or freshly ironed clean cotton cloth over cooled burn", "Bottled drinking water poured slowly over burn for 15+ minutes"]
+  },
+  {
+    "id": "FIRSTAID-MINOR-03",
+    "category": "FirstAid_Minor",
+    "title": "Sprains, Twisted Ankle (Moch) & Nosebleed Management",
+    "source": "NDMA Campus Sports & Evacuation First Aid SOP",
+    "severity": "Moderate",
+    "keywords": ["sprain", "moch", "twist", "ankle", "wrist", "swelling", "sujan", "ice", "crepe bandage", "nosebleed", "nakseer", "nak se khoon"],
+    "content": "For ankle/wrist sprains (moch) during hurried evacuation without bone deformity: apply RICE protocol—Rest (stop weight-bearing), Ice (wrapped in cloth for 15 minutes every 2 hours), Compression (snug figure-of-eight crepe bandage—not tight enough to cause numbness or blue toes), and Elevation above heart level. For a nosebleed (nakseer): sit the student upright and lean slightly FORWARD (never tilt head back, as blood can choke the airway); pinch the soft bridge of the nose firmly for 10 continuous minutes while breathing through the mouth.",
+    "real_time_steps": [
+      "Sprain: Rest limb, apply wrapped cold pack 15 mins, wrap crepe bandage snugly, elevate",
+      "Check fingers/toes below bandage for warmth and normal color (not too tight)",
+      "Nosebleed: Sit upright, lean forward, pinch soft nose for 10 full minutes",
+      "Seek medical clinic if pain prevents walking 4 steps or nosebleed exceeds 20 minutes"
+    ],
+    "medikit_items": ["Elastic crepe bandage (7.5cm / 10cm)", "Instant cold compress", "Sterile cotton/gauze to catch nosebleed drips", "Pain-relief topical spray (after skin check)"],
+    "improvised_sources": ["Clean dupatta, school tie, or rolled shirt wrapped snugly for compression", "Cold water bottle wrapped in handkerchief as cold compress"]
+  },
+  {
+    "id": "FIRSTAID-MAJOR-01",
+    "category": "FirstAid_Major",
+    "title": "Severe Bleeding, Deep Lacerations & Shock Control (Jyada Chot)",
+    "source": "Indian Red Cross & WHO Trauma Care Guidelines",
+    "severity": "Critical",
+    "keywords": ["major injury", "jyada chot", "gehri chot", "heavy bleeding", "jyada khoon", "arterial", "shock", "deep cut", "glass cut", "trauma", "emergency"],
+    "content": "For severe or spurting bleeding (jyada chot / gehra zakhm): call 108 / 112 immediately. Apply FIRM, CONTINUOUS DIRECT PRESSURE directly over the wound using thick sterile trauma gauze pads. If blood soaks through the first pad, do NOT remove it (removing dislodges clots)—place fresh gauze pads directly on top and press harder. Elevate the injured limb above heart level ONLY if no fracture is suspected. If an object (glass shard or metal rod) is impaled inside the wound, NEVER pull it out—pack bulky gauze rings around the object to stabilize it. Treat for shock: lay victim flat, keep warm with emergency blanket, and monitor breathing.",
+    "real_time_steps": [
+      "Call 108 / 112 and Campus Medical Officer immediately",
+      "Apply firm continuous direct pressure with layered sterile gauze pads",
+      "Never remove blood-soaked pads; add new pads on top and bind firmly",
+      "Do NOT pull out embedded glass/metal; pad around the object and treat for shock"
+    ],
+    "medikit_items": ["Heavy-duty trauma dressing / ABD pads", "Roller gauze bandage", "Disposable gloves", "Emergency foil thermal blanket (for shock)", "Tourniquet (only if life-threatening limb bleed fails direct pressure)"],
+    "improvised_sources": ["Folded thick clean cotton t-shirt, towel, or folded newspaper wrapped in clean cloth for pressure pad", "Clean school scarf/dupatta as tight pressure tie (note time applied)"]
+  },
+  {
+    "id": "FIRSTAID-MAJOR-02",
+    "category": "FirstAid_Major",
+    "title": "Fractures, Dislocations & Suspected Spinal/Neck Injury (Haddi Tootna)",
+    "source": "NDMA Disaster Trauma & Immobilization Protocol",
+    "severity": "Critical",
+    "keywords": ["fracture", "haddi toot", "broken bone", "spinal", "neck", "back injury", "reedh", "splint", "sling", "deformity", "do not move"],
+    "content": "If a victim has fallen from height, been struck by falling debris, or complains of neck/back pain, numbness, or tingling: SUSPECT SPINAL INJURY and DO NOT MOVE OR LIFT THE PERSON unless an immediate life-threatening hazard (fire/collapsing ceiling) forces an emergency drag. Stabilize head and neck manually in neutral alignment until ambulance paramedics arrive. For limb fractures (visible bend, severe pain, inability to move): do NOT try to push bone back in or straighten it. Immobilize the joint ABOVE and BELOW the break using a padded splint and triangular sling, and cover open fractures lightly with sterile moist gauze.",
+    "real_time_steps": [
+      "Check for neck/back pain or fall impact—if suspected, DO NOT move the victim",
+      "Hold head steady on both sides until trained 108 ambulance team arrives",
+      "For limb fractures: immobilize both joints above and below break in position found",
+      "Use triangular sling for arm/collarbone fractures; check pulse/sensation below splint"
+    ],
+    "medikit_items": ["SAM / wooden padded splints", "Triangular calico bandage (for arm sling)", "Roller bandages", "Sterile gauze (if open compound fracture)"],
+    "improvised_sources": ["Sturdy wooden meter ruler, folded thick cardboard/notebooks, or umbrella padded with sweaters/towels as splint", "Dupatta, scarf, or rolled bedsheet tied gently above and below fracture (never over the break)"]
+  },
+  {
+    "id": "FIRSTAID-MAJOR-03",
+    "category": "FirstAid_Major",
+    "title": "Major Burns (2nd/3rd Degree), Chemical Burns & Unconsciousness / CPR",
+    "source": "St. John Ambulance India & NBC Emergency Medical SOP",
+    "severity": "Critical",
+    "keywords": ["major burn", "severe burn", "chemical burn", "acid", "unconscious", "behosh", "not breathing", "cpr", "choking", "recovery position", "eye splash"],
+    "content": "For large or deep burns (charred/white skin or larger than victim's palm): call 108 immediately, remove jewelry/belts away from stuck clothing (NEVER peel clothing stuck to burned skin), cover loosely with sterile burn sheet or clean cling wrap, and monitor for shock. For lab chemical splash in eyes or skin: flush continuously under eyewash station or clean tap water for 20+ minutes while removing contaminated lab coat. If a victim is unconscious (behosh) but breathing normally: place in Recovery Position (on their side, chin tilted gently up to keep airway clear). If unresponsive and NOT breathing normally: begin Hands-Only CPR—100–120 chest compressions per minute in the center of the chest, 5 cm deep—until AED or ambulance arrives.",
+    "real_time_steps": [
+      "Large/deep burn: Do NOT peel stuck clothes; cover loosely with sterile wrap, call 108",
+      "Chemical splash: Flush continuously with clean water for 20 minutes",
+      "Unconscious & breathing: Roll carefully into side Recovery Position",
+      "Unconscious & NOT breathing: Call 108, start chest compressions (100–120/min) immediately"
+    ],
+    "medikit_items": ["Sterile burn sheet", "Saline eye-wash bottles", "Pocket CPR face shield / barrier mask", "Trauma shears (to cut clothing around stuck areas)"],
+    "improvised_sources": ["Clean non-fuzzy cotton bedsheet draped loosely over large burns", "Continuous jug/bucket pouring of clean water for 20 minutes for chemical spills"]
+  },
+  {
+    "id": "CAMPUS-CHEM-01",
+    "category": "Lab_Chemical",
+    "title": "College Chemistry Lab Spill, Toxic Fumes & Acid Exposure",
+    "source": "AICTE & UGC Laboratory Safety Guidelines",
+    "severity": "High",
+    "keywords": ["chemical", "lab", "acid", "fumes", "gas leak", "spill", "laboratory", "eyewash", "ammonia", "chlorine", "chemistry"],
+    "content": "In case of a broken chemical bottle or toxic fume release in a school/college laboratory: alert the lab instructor immediately, switch on exhaust fans (do NOT switch electrical sparks on/off if flammable solvent vapor like ether/acetone is present), evacuate upwind out of the lab, and close the lab door behind you. Never pour water directly onto concentrated sulfuric acid or sodium metal spills—use the lab dry sand bucket or chemical spill kit. Anyone with skin or eye contact must use the emergency shower or eyewash station for at least 20 minutes.",
+    "real_time_steps": [
+      "Alert lab faculty and evacuate students upwind immediately",
+      "Close lab door behind evacuees to contain fumes",
+      "Use dry sand/spill neutralizer—never water on reactive metals or strong acids",
+      "Flush exposed eyes/skin with clean water for 20 minutes before hospital transport"
+    ],
+    "medikit_items": ["Saline eye-wash bottles", "Chemical-resistant gloves", "Dust/vapor masks", "pH neutralizer / emergency shower"],
+    "improvised_sources": ["Dry sand buckets outside lab", "Clean wet cloth over nose/mouth while evacuating upwind"]
+  },
+  {
+    "id": "CAMPUS-CROWD-01",
+    "category": "Crowd_Stampede",
+    "title": "Corridor Stampede Prevention & Assembly Discipline",
+    "source": "NDMA Crowd Management Guidelines for Schools & Colleges",
+    "severity": "High",
+    "keywords": ["stampede", "crowd", "bhagdad", "staircase", "pushing", "panic", "corridor", "exit", "student fall"],
+    "content": "Most school disaster casualties occur from panic-driven crushing on narrow staircases rather than the primary hazard itself. Teachers must position themselves at stairwell landings to regulate single-file flow ('Walk briskly, do not run, keep left on stairs'). Keep backpacks inside classrooms during emergency evacuation so corridors remain clear. If caught in a dense moving crowd, keep arms bent up in front of your chest like a boxer to protect your lungs, move diagonally toward the edge of the flow, and if someone drops an item, NEVER bend down to pick it up.",
+    "real_time_steps": [
+      "Leave school bags behind—evacuate with hands free",
+      "Teachers monitor stairwell landings to enforce single-file movement",
+      "Never stop to retrieve dropped phones/bags in moving corridors",
+      "Keep chest protected with bent arms if crowding intensifies"
+    ],
+    "medikit_items": ["High-decibel whistle", "Megaphone / hand hailer", "Pulse oximeter", "Oxygen / first-aid kit at assembly point"],
+    "improvised_sources": ["Classroom monitors acting as human chain guides at corridor turns", "Loud metallic bell or whistle cadence to pace calm walking"]
+  },
+  {
+    "id": "CAMPUS-HELPLINE-01",
+    "category": "Emergency_Resources",
+    "title": "Indian National Emergency Helplines & Campus Incident Command Roles",
+    "source": "NDMA / Ministry of Home Affairs (MHA) India",
+    "severity": "High",
+    "keywords": ["helpline", "number", "112", "108", "101", "1070", "1077", "ndrf", "sdrf", "police", "ambulance", "fire brigade", "warden", "principal"],
+    "content": "Memorize and display India's verified emergency numbers on every classroom board: 112 (National Single Emergency Response — Police/Fire/Ambulance), 108 (Free Emergency Ambulance & Trauma), 101 (Fire Brigade), 1070 (State Disaster Helpline), 1077 (District Disaster Control Room), and 1098 (Childline). Every school/college must maintain a Campus Disaster Management Committee (CDMC) led by the Principal/Director, with designated Floor Wardens, Search & Rescue Team, First-Aid Team, and Early Warning Team, plus updated floorplans showing Assembly Zones and Medikit stations.",
+    "real_time_steps": [
+      "Dial 112 for unified emergency dispatch or 108 directly for medical trauma ambulance",
+      "Provide exact campus gate number, landmark, building wing, and injury count",
+      "Assign one staff member at the main college gate to guide arriving Fire/Ambulance vehicles",
+      "Maintain updated student emergency parent contact register at the Assembly Zone"
+    ],
+    "medikit_items": ["Laminated campus emergency contact directory", "Floor-wise evacuation map", "Portable megaphone", "Master keys & emergency torches"],
+    "improvised_sources": ["Offline printed student/parent emergency contact list in waterproof folder", "Two-way campus walkie-talkies or WhatsApp Emergency Broadcast group"]
+  }
+]

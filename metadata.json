@@ -1,0 +1,6 @@
+{
+  "name": "Suraksha Campus",
+  "description": "Disaster Preparedness, Virtual Drill Simulator & RAG Safety Assistant for Indian Schools and Colleges",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

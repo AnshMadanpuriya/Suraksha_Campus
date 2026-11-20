@@ -1,0 +1,370 @@
+{
+  "drills": [
+    {
+      "id": "drill-101",
+      "institutionName": "Vidya Mandir Senior Secondary School",
+      "blockName": "Academic Block B (2nd Floor)",
+      "hazard": "Earthquake",
+      "scenarioTitle": "Seismic Zone IV Classroom Drill",
+      "role": "Teacher",
+      "participants": 145,
+      "evacuationSec": 88,
+      "score": 142,
+      "maxScore": 150,
+      "readinessGrade": "Exemplary",
+      "completedAt": "2026-11-14T09:30:00.000Z",
+      "mode": "Virtual Simulation"
+    },
+    {
+      "id": "drill-102",
+      "institutionName": "National Institute of Engineering & Tech",
+      "blockName": "Chemistry Lab & Hostel Wing A",
+      "hazard": "Fire",
+      "scenarioTitle": "Lab Short-Circuit & Smoke Evacuation",
+      "role": "Floor Warden",
+      "participants": 210,
+      "evacuationSec": 118,
+      "score": 128,
+      "maxScore": 150,
+      "readinessGrade": "Exemplary",
+      "completedAt": "2026-11-16T11:15:00.000Z",
+      "mode": "Physical Campus Drill"
+    },
+    {
+      "id": "drill-103",
+      "institutionName": "St. Xavier Degree College",
+      "blockName": "Ground Floor Library & Auditorium",
+      "hazard": "Flood",
+      "scenarioTitle": "Monsoon Flash Waterlogging Protocol",
+      "role": "Student",
+      "participants": 95,
+      "evacuationSec": 134,
+      "score": 108,
+      "maxScore": 150,
+      "readinessGrade": "Prepared",
+      "completedAt": "2026-11-18T14:20:00.000Z",
+      "mode": "Virtual Simulation"
+    }
+  ],
+  "medikit": [
+    {
+      "id": "kit-01",
+      "name": "Sterile Gauze & Trauma ABD Pads (10x10cm)",
+      "category": "Trauma & Bleeding",
+      "quantity": 24,
+      "minRequired": 20,
+      "status": "Stocked",
+      "useForMinor": "Gentle 3-min direct pressure on small classroom cuts or abrasions before taping.",
+      "useForMajor": "Layer thick pads firmly over deep bleeding lacerations; never remove soaked bottom pad.",
+      "improvisedAlternative": "Freshly laundered clean cotton handkerchief, folded clean t-shirt, or unused tissue stack.",
+      "lastChecked": "2026-11-18"
+    },
+    {
+      "id": "kit-02",
+      "name": "Elastic Crepe Bandages (7.5cm & 10cm)",
+      "category": "Fracture & Mobility",
+      "quantity": 12,
+      "minRequired": 10,
+      "status": "Stocked",
+      "useForMinor": "Figure-of-eight ankle/wrist compression for mild evacuation sprains (RICE).",
+      "useForMajor": "Bind padded splints above and below limb fractures or secure heavy trauma pads.",
+      "improvisedAlternative": "Clean cotton dupatta, school scarf, or torn clean bedsheet strips.",
+      "lastChecked": "2026-11-18"
+    },
+    {
+      "id": "kit-03",
+      "name": "Povidone-Iodine / Savlon Antiseptic & Saline",
+      "category": "Trauma & Bleeding",
+      "quantity": 3,
+      "minRequired": 6,
+      "status": "Low Stock",
+      "useForMinor": "Clean skin around scrapes/cuts after rinsing with clean drinking water.",
+      "useForMajor": "Flush chemical or dust contamination from eyes/skin continuously for 20 minutes.",
+      "improvisedAlternative": "Sealed bottled drinking water or cooled boiled water for thorough wound irrigation.",
+      "lastChecked": "2026-11-15"
+    },
+    {
+      "id": "kit-04",
+      "name": "Burnshield Hydrogel & Non-Stick Paraffin Gauze",
+      "category": "Burns & Eye Care",
+      "quantity": 4,
+      "minRequired": 8,
+      "status": "Low Stock",
+      "useForMinor": "Apply after 15–20 mins cool running water on 1st-degree mild scalds.",
+      "useForMajor": "Drape loosely over deep 2nd/3rd-degree burns without popping blisters or peeling stuck cloth.",
+      "improvisedAlternative": "Clean food-grade plastic cling wrap or freshly ironed clean cotton sheet after cool water.",
+      "lastChecked": "2026-11-12"
+    },
+    {
+      "id": "kit-05",
+      "name": "Padded Wooden/SAM Splints & Triangular Slings",
+      "category": "Fracture & Mobility",
+      "quantity": 6,
+      "minRequired": 6,
+      "status": "Stocked",
+      "useForMinor": "Temporary rest support for severe wrist sprain until clinic check.",
+      "useForMajor": "Immobilize suspected arm/leg fractures across joints above and below break.",
+      "improvisedAlternative": "Hardcover textbook, wooden meter ruler, or folded thick cardboard padded with sweaters.",
+      "lastChecked": "2026-11-18"
+    },
+    {
+      "id": "kit-06",
+      "name": "WHO ORS Packets & Chlorine Water Tablets",
+      "category": "Hydration & Triage",
+      "quantity": 30,
+      "minRequired": 25,
+      "status": "Stocked",
+      "useForMinor": "Rehydrate students with heat exhaustion or mild dizziness on assembly ground.",
+      "useForMajor": "Maintain hydration during prolonged flood shelter isolation; purify drinking water.",
+      "improvisedAlternative": "1L boiled cooled water + 6 level tsp sugar + 1/2 tsp salt.",
+      "lastChecked": "2026-11-18"
+    },
+    {
+      "id": "kit-07",
+      "name": "Thermal Foil Blankets, CPR Face Shield & Trauma Shears",
+      "category": "Hydration & Triage",
+      "quantity": 2,
+      "minRequired": 6,
+      "status": "Needs Restock",
+      "useForMinor": "Cut adhesive tape or dry wet students during monsoon drills.",
+      "useForMajor": "Prevent shock/hypothermia in trauma victims; safe barrier for Hands-Only/rescue CPR.",
+      "improvisedAlternative": "Dry woollen shawl/blazer for shock warmth; clean dry handkerchief barrier.",
+      "lastChecked": "2026-11-10"
+    }
+  ],
+  "assessments": [
+    {
+      "id": "assess-201",
+      "moduleId": "mod-earthquake",
+      "moduleTitle": "Earthquake Zone III–V Classroom Protocol",
+      "participantName": "Prof. Ananya Sharma",
+      "role": "Teacher",
+      "score": 5,
+      "total": 5,
+      "percentage": 100,
+      "submittedAt": "2026-11-15T10:10:00.000Z"
+    },
+    {
+      "id": "assess-202",
+      "moduleId": "mod-fire",
+      "moduleTitle": "Campus Fire, Toxic Smoke & Extinguisher SOP",
+      "participantName": "Aarav Verma",
+      "role": "Student",
+      "score": 3,
+      "total": 3,
+      "percentage": 100,
+      "submittedAt": "2026-11-17T12:40:00.000Z"
+    }
+  ],
+  "learners": [
+    {
+      "id": "learner-s1",
+      "name": "Aarav Verma",
+      "role": "Student",
+      "departmentOrClass": "B.Tech CSE · Sem 5",
+      "modules": {
+        "mod-earthquake": {
+          "moduleId": "mod-earthquake",
+          "lessonCompleted": true,
+          "drillCompleted": true,
+          "bestDrillScorePct": 93,
+          "quizCompleted": true,
+          "bestQuizScorePct": 100,
+          "lastActivityAt": "2026-11-17"
+        },
+        "mod-fire": {
+          "moduleId": "mod-fire",
+          "lessonCompleted": true,
+          "drillCompleted": true,
+          "bestDrillScorePct": 88,
+          "quizCompleted": true,
+          "bestQuizScorePct": 100,
+          "lastActivityAt": "2026-11-18"
+        },
+        "mod-flood": {
+          "moduleId": "mod-flood",
+          "lessonCompleted": true,
+          "drillCompleted": false,
+          "bestDrillScorePct": 0,
+          "quizCompleted": false,
+          "bestQuizScorePct": 0,
+          "lastActivityAt": "2026-11-19"
+        },
+        "mod-firstaid": {
+          "moduleId": "mod-firstaid",
+          "lessonCompleted": true,
+          "drillCompleted": false,
+          "bestDrillScorePct": 0,
+          "quizCompleted": false,
+          "bestQuizScorePct": 0,
+          "lastActivityAt": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "learner-s2",
+      "name": "Riya Deshmukh",
+      "role": "Student",
+      "departmentOrClass": "Class 11-A Science",
+      "modules": {
+        "mod-earthquake": {
+          "moduleId": "mod-earthquake",
+          "lessonCompleted": true,
+          "drillCompleted": true,
+          "bestDrillScorePct": 90,
+          "quizCompleted": true,
+          "bestQuizScorePct": 100,
+          "lastActivityAt": "2026-11-18"
+        },
+        "mod-fire": {
+          "moduleId": "mod-fire",
+          "lessonCompleted": true,
+          "drillCompleted": true,
+          "bestDrillScorePct": 82,
+          "quizCompleted": true,
+          "bestQuizScorePct": 85,
+          "lastActivityAt": "2026-11-18"
+        },
+        "mod-flood": {
+          "moduleId": "mod-flood",
+          "lessonCompleted": true,
+          "drillCompleted": true,
+          "bestDrillScorePct": 84,
+          "quizCompleted": true,
+          "bestQuizScorePct": 80,
+          "lastActivityAt": "2026-11-19"
+        },
+        "mod-firstaid": {
+          "moduleId": "mod-firstaid",
+          "lessonCompleted": true,
+          "drillCompleted": true,
+          "bestDrillScorePct": 92,
+          "quizCompleted": true,
+          "bestQuizScorePct": 100,
+          "lastActivityAt": "2026-11-19"
+        }
+      }
+    },
+    {
+      "id": "learner-s3",
+      "name": "Kabir Patel",
+      "role": "Student",
+      "departmentOrClass": "B.Sc Chemistry · Sem 3",
+      "modules": {
+        "mod-earthquake": {
+          "moduleId": "mod-earthquake",
+          "lessonCompleted": true,
+          "drillCompleted": false,
+          "bestDrillScorePct": 0,
+          "quizCompleted": false,
+          "bestQuizScorePct": 0,
+          "lastActivityAt": "2026-11-16"
+        }
+      }
+    },
+    {
+      "id": "learner-t1",
+      "name": "Prof. Ananya Sharma",
+      "role": "Teacher",
+      "departmentOrClass": "Block B Floor Coordinator",
+      "modules": {
+        "mod-earthquake": {
+          "moduleId": "mod-earthquake",
+          "lessonCompleted": true,
+          "drillCompleted": true,
+          "bestDrillScorePct": 96,
+          "quizCompleted": true,
+          "bestQuizScorePct": 100,
+          "lastActivityAt": "2026-11-15"
+        },
+        "mod-fire": {
+          "moduleId": "mod-fire",
+          "lessonCompleted": true,
+          "drillCompleted": true,
+          "bestDrillScorePct": 90,
+          "quizCompleted": true,
+          "bestQuizScorePct": 100,
+          "lastActivityAt": "2026-11-16"
+        },
+        "mod-flood": {
+          "moduleId": "mod-flood",
+          "lessonCompleted": true,
+          "drillCompleted": false,
+          "bestDrillScorePct": 0,
+          "quizCompleted": true,
+          "bestQuizScorePct": 80,
+          "lastActivityAt": "2026-11-18"
+        },
+        "mod-firstaid": {
+          "moduleId": "mod-firstaid",
+          "lessonCompleted": true,
+          "drillCompleted": false,
+          "bestDrillScorePct": 0,
+          "quizCompleted": false,
+          "bestQuizScorePct": 0,
+          "lastActivityAt": "2026-11-18"
+        }
+      }
+    },
+    {
+      "id": "learner-t2",
+      "name": "Rajesh Kulkarni",
+      "role": "Teacher",
+      "departmentOrClass": "Chemistry Lab & Hostel Warden",
+      "modules": {
+        "mod-fire": {
+          "moduleId": "mod-fire",
+          "lessonCompleted": true,
+          "drillCompleted": true,
+          "bestDrillScorePct": 91,
+          "quizCompleted": true,
+          "bestQuizScorePct": 100,
+          "lastActivityAt": "2026-11-16"
+        },
+        "mod-firstaid": {
+          "moduleId": "mod-firstaid",
+          "lessonCompleted": true,
+          "drillCompleted": false,
+          "bestDrillScorePct": 0,
+          "quizCompleted": false,
+          "bestQuizScorePct": 0,
+          "lastActivityAt": "2026-11-17"
+        }
+      }
+    }
+  ],
+  "checklists": [
+    {
+      "id": "chk-01",
+      "title": "Classroom Exit Signage & Corridor Obstruction Audit",
+      "block": "Academic Block B (2nd Floor)",
+      "assignedTeacher": "Prof. Ananya Sharma",
+      "completed": true,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "chk-02",
+      "title": "Chemistry Lab ABC/CO2 Extinguisher Pressure Pin Check",
+      "block": "Science Wing — Lab 102",
+      "assignedTeacher": "Rajesh Kulkarni",
+      "completed": true,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "chk-03",
+      "title": "Ground Floor Main MCB Waterproof Labeling & Flood Isolator Test",
+      "block": "Ground Floor Library",
+      "assignedTeacher": "Prof. Ananya Sharma",
+      "completed": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "chk-04",
+      "title": "Restock Savlon Antiseptic, Burnshield Gel & Thermal Blankets",
+      "block": "Central Campus Medical Room",
+      "assignedTeacher": "Rajesh Kulkarni",
+      "completed": false,
+      "updatedAt": "2026-11-19"
+    }
+  ]
+}

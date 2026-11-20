@@ -1,0 +1,213 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-display: "Outfit", system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+  }
+
+  html.dark {
+    color-scheme: dark;
+    background-color: #090d16;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+  }
+}
+
+/* Dark theme semantic surface, border, and contrast overrides */
+html.dark .bg-white {
+  background-color: #111827;
+}
+
+html.dark .bg-white\/95 {
+  background-color: rgba(17, 24, 39, 0.95);
+}
+
+html.dark .bg-slate-50 {
+  background-color: #161f30;
+}
+
+html.dark .bg-slate-100 {
+  background-color: #1e293b;
+}
+
+html.dark .bg-slate-100 .bg-white {
+  background-color: #334155;
+}
+
+html.dark .bg-slate-900 {
+  background-color: #1e293b;
+}
+
+html.dark .border-slate-200 {
+  border-color: #263244;
+}
+
+html.dark .border-slate-300 {
+  border-color: #334155;
+}
+
+html.dark .divide-slate-200 > :not(:last-child) {
+  border-color: #263244;
+}
+
+html.dark .text-slate-900 {
+  color: #f8fafc;
+}
+
+html.dark .text-slate-800 {
+  color: #e2e8f0;
+}
+
+html.dark .text-slate-700 {
+  color: #cbd5e1;
+}
+
+html.dark .text-slate-600 {
+  color: #94a3b8;
+}
+
+html.dark .text-slate-500 {
+  color: #94a3b8;
+}
+
+html.dark .text-sky-700,
+html.dark .text-sky-800,
+html.dark .text-sky-900 {
+  color: #38bdf8;
+}
+
+html.dark .text-emerald-700,
+html.dark .text-emerald-800 {
+  color: #34d399;
+}
+
+html.dark .text-amber-700 {
+  color: #fbbf24;
+}
+
+html.dark .text-rose-700 {
+  color: #fb7185;
+}
+
+html.dark .bg-sky-50 {
+  background-color: rgba(12, 74, 110, 0.35);
+}
+
+html.dark .bg-sky-100 {
+  background-color: rgba(14, 116, 144, 0.35);
+}
+
+html.dark .border-sky-200,
+html.dark .border-sky-300 {
+  border-color: #0369a1;
+}
+
+html.dark .bg-sky-50.text-sky-900,
+html.dark .bg-sky-50.text-sky-800 {
+  color: #bae6fd;
+}
+
+html.dark .bg-emerald-50 {
+  background-color: rgba(6, 78, 59, 0.35);
+}
+
+html.dark .border-emerald-200 {
+  border-color: #047857;
+}
+
+html.dark .text-emerald-950 {
+  color: #d1fae5;
+}
+
+html.dark .bg-amber-50 {
+  background-color: rgba(120, 53, 15, 0.35);
+}
+
+html.dark .bg-amber-100 {
+  background-color: rgba(180, 83, 9, 0.55);
+}
+
+html.dark .border-amber-200 {
+  border-color: #b45309;
+}
+
+html.dark .text-amber-900,
+html.dark .text-amber-950 {
+  color: #fef3c7;
+}
+
+html.dark .bg-rose-50 {
+  background-color: rgba(136, 19, 55, 0.35);
+}
+
+html.dark .border-rose-200 {
+  border-color: #be123c;
+}
+
+html.dark .text-rose-900,
+html.dark .text-rose-950 {
+  color: #ffe4e6;
+}
+
+html.dark .hover\:bg-slate-50:hover,
+html.dark .hover\:bg-slate-100:hover {
+  background-color: #1e293b;
+}
+
+html.dark .hover\:bg-slate-200:hover,
+html.dark .hover\:bg-slate-800:hover {
+  background-color: #334155;
+}
+
+html.dark .hover\:bg-sky-50:hover,
+html.dark .hover\:bg-sky-100:hover {
+  background-color: rgba(12, 74, 110, 0.5);
+}
+
+html.dark .hover\:bg-amber-200:hover {
+  background-color: rgba(180, 83, 9, 0.75);
+}
+
+html.dark .hover\:bg-rose-50:hover {
+  background-color: rgba(136, 19, 55, 0.35);
+}
+
+html.dark .hover\:text-slate-900:hover {
+  color: #f8fafc;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@keyframes quakeShake {
+  0%, 100% { transform: translate(0, 0); }
+  20% { transform: translate(-3px, 2px); }
+  40% { transform: translate(3px, -2px); }
+  60% { transform: translate(-2px, -1px); }
+  80% { transform: translate(2px, 2px); }
+}
+
+.animate-quake {
+  animation: quakeShake 0.45s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-quake {
+    animation: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
